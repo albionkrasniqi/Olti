@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#0027b4, white , rgb(229, 255, 0));
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0027b4;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.recent-news {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-title {
+    text-align: center;
+    color: #01939c;
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(88, 88, 88);
+}
+
+footer h1 {
+    text-align: left;
+}
+
+body {
+    font-family: Rubik, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+  color: #030929;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+    font-family: Rubik, Arial, sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+.news-box1 {
+    width: 20%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    height: 300px;
+    align-items: start ;
+    margin-left: 0px;
+}
+
+.news-box1 img {
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+.news-box2:hover {
+    background-color: rgba(128, 128, 128, 0.558);
+}
+.news-box2 {
+    width: 20%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    height: 300px;
+    align-items: start;
+    margin-top:400px;
+    margin-left: -550px
+    ;
+}
+
+.news-box2 img {
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+
+
+.news-box2:hover {
+    background-color: rgba(128, 128, 128, 0.558);
+}
+.news-box3 {
+    width: 20%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    height: 350px;
+    align-items: start;
+    margin-top: 800px;
+    margin-left: -550px;
+}
+
+.news-box3 img {
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+.news-box3:hover {
+    background-color: rgba(128, 128, 128, 0.558);
+}
+.news-box4 {
+    width: 800px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    height: 800px;
+    align-items: start;
+    font-size: 25px;
+}
+
+.news-box4 img {
+    width: 800px;
+    max-width: 100%;
+    height: 600px;
+    
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+.news-box4:hover {
+    background-color: rgba(128, 128, 128, 0.558);
+}
+.search-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #searchResults {
+    margin: 20px;
+  }
+  .news-box {
+    width: 20%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    height: 350px;
+    align-items: start ;
+    margin-left: 0px;
+}
+
+.news-box img {
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.h19{
+    font-size:30px;
+    text-align: center;
+    font-family: fantasy;
+}
+.aks-a{
+    color: black;
+}
+.aks-a hoover{
+    color: dimgrey;
+}
+
+footer h1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+footer h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: monospace;
+}
+footer li{
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.fli1{
+    margin-top: -100px;
+}
+footer hr{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white ;
+}
+footer{
+    font-family: fantasy;
+}
+.h2s{
+    text-align: center;
+    font-size: 40px;
+}
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+.aks-a1{
+    margin-left: 1600px;
+}
